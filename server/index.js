@@ -5,6 +5,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import userRouter from "./routes/users.js";
 import authRouter from "./routes/auth.js";
+import postRouter from "./routes/post.js";
 
 //runs express server
 const app = express();
@@ -19,6 +20,7 @@ app.listen(process.env.SERVER_PORT, () => {
 
 app.use("/api/users", userRouter);
 app.use("/api/auth", authRouter);
+app.use("/api/post", postRouter);
 
 //mongoose connection
 mongoose.connect(process.env.MONGO_URL);
