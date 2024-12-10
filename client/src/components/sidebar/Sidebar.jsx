@@ -49,7 +49,7 @@ export default function Sidebar() {
             <ul className="sidebarFriendList">
                 <li className="sidebarFriend">
                     <img className="sidebarFriendImg" src="/person-1.jpg" alt=""></img>
-                    <span className="sidebarFriendName">Jane Doe</span>
+                    <span className="sidebarFriendName">Renee Johnson</span>
                 </li>
                 <li className="sidebarFriend">
                     <img className="sidebarFriendImg" src="/person-2.jpg" alt=""></img>
