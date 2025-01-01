@@ -18,9 +18,10 @@ app.listen(process.env.SERVER_PORT, () => {
     console.log(`Socialbook server is now running on port ${process.env.SERVER_PORT}`)
 });
 
-app.use("/api/users", userRouter);
-app.use("/api/auth", authRouter);
-app.use("/api/post", postRouter);
+app.use("/", userRouter);
+app.use("/", authRouter);
+app.use("/", postRouter);
+
 
 //mongoose connection
 mongoose.connect(process.env.MONGO_URL);

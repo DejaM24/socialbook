@@ -9,7 +9,7 @@ export default function Rightbar({ profile }) {
             <div>
                 <div className="birthdayContainer">
                     <img className='birthdayImg' src='/celebrate.jpg' alt=''></img>
-                    <span className="birthdayText"><b>Ricardo Hernandez</b> and <b>3 other friends</b> have a birthday today!</span>
+                    <span className="birthdayText"><b>Micah Piccolo</b> and <b>3 other friends</b> have a birthday today!</span>
                 </div>
                 <img className='rightbarAd' src='/ad.jpg' alt=''></img>
                 <h4 className='rightbarTitle'>Online Friends</h4>
